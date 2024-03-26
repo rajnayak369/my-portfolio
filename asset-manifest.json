@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.784cafb5.css",
+    "main.js": "/my-portfolio/static/js/main.2e5d5ad9.js",
+    "static/media/bg-project2.jpg": "/my-portfolio/static/media/bg-project2.a62c85f58eee56987a60.jpg",
+    "static/media/bg-night.jpg": "/my-portfolio/static/media/bg-night.a7257e7fbff66d7fb7cc.jpg",
+    "static/media/bg-edu-left1.jpeg": "/my-portfolio/static/media/bg-edu-left1.6a62e95a94baf2e66c97.jpeg",
+    "static/media/my-photo.jpeg": "/my-portfolio/static/media/my-photo.94358c2eed0effd4277a.jpeg",
+    "static/media/Nunito-Bold.ttf": "/my-portfolio/static/media/Nunito-Bold.275dd55e10ba966bcb9b.ttf",
+    "static/media/Heebo-VariableFont_wght.ttf": "/my-portfolio/static/media/Heebo-VariableFont_wght.e7f8d1c22ae660fdb47d.ttf",
+    "static/media/bg-edu-right.jpeg": "/my-portfolio/static/media/bg-edu-right.ba66e4708d72bb9020ff.jpeg",
+    "static/media/logo-no-background.png": "/my-portfolio/static/media/logo-no-background.fc4aa960b857fd299620.png",
+    "static/media/contact.svg": "/my-portfolio/static/media/contact.e398465e1630e17f0b03978b362c2f74.svg",
+    "static/media/revicons.eot": "/my-portfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/my-portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
+    "static/media/revicons.woff": "/my-portfolio/static/media/revicons.e8746a624ed098489406.woff",
+    "static/media/nav-icon3.svg": "/my-portfolio/static/media/nav-icon3.ee0c70cac0d259200f14839a783ff572.svg",
+    "index.html": "/my-portfolio/index.html",
+    "static/media/nav-icon1.svg": "/my-portfolio/static/media/nav-icon1.c7d6b6e3f09ac9a8e9ab96d60e94dc55.svg",
+    "static/media/nav-icon2.svg": "/my-portfolio/static/media/nav-icon2.fa2b1b4bd609a7fb5b1425a51adb0143.svg",
+    "main.784cafb5.css.map": "/my-portfolio/static/css/main.784cafb5.css.map",
+    "main.2e5d5ad9.js.map": "/my-portfolio/static/js/main.2e5d5ad9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.784cafb5.css",
+    "static/js/main.2e5d5ad9.js"
+  ]
+}
