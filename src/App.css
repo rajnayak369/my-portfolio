@@ -86,11 +86,6 @@ p.success {
 p.danger {
 	color: red;
 }
-
-.hidden {
-  display: none;
-}
-
 /************ Navbar Css ************/
 nav.navbar {
   padding: 18px 0;
@@ -233,7 +228,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 0px 0px;
-  font-size: 20px;
+  font-size: 1.2rem;
   margin-bottom: 16px;
   display: inline-block;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
@@ -243,7 +238,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 0 !important;
 }
 .banner h1 {
-  font-size: 45px;
+  font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.8px;
   line-height: 1;
@@ -252,7 +247,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .banner p {
   color: #fff;
-  font-size: 18px;
+  font-size: 1.1rem;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
@@ -616,17 +611,15 @@ margin-bottom: 20px;
 
 }
 
-.title { 
-  text-align: center;
-}
 .tech-exp{
   font-size: 1rem;
 }
 .title{
+text-align: center;
 padding: 15px;
 border-radius: 20px;
 color: #ffffff ;
-
+  font-size: 2.5rem !important;
 }
 .description{
   font-size: 0.8rem !important;
@@ -678,14 +671,6 @@ color: #ffffff ;
   .skill-bx {
     padding: 4% 0;
     border-radius: 25px;
-  }
-
-  .section-education{
-
-    height: 100%;
-  }
-  .section-projects{
-    height: 600px;
   }
   .hidden{
     display:contents;
