@@ -238,6 +238,10 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   display: inline-block;
   background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
 }
+.tagline-skills{
+  background: linear-gradient(90.21deg, rgba(21, 202, 172, 0.5) -5.91%, rgba(21, 202, 172, 0.5) 111.58%)!important;
+  margin-bottom: 0 !important;
+}
 .banner h1 {
   font-size: 45px;
   font-weight: 700;
@@ -253,6 +257,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1.5em;
   width: 96%;
 }
+.col-intro a{
+  text-decoration:underline;
+  color: #fff;
+}
+
+.col-intro a:hover{
+  color: #36aa97;
+}
+
 .banner button {
   margin-left: 0;
   letter-spacing: 0.8px;
@@ -289,6 +302,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .social-icon {
   display: flex;
   margin-right: 10%;
+  margin-left: 30px;
 }
 .social-icon a {
   width: 42px;
@@ -337,6 +351,10 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
 
 
 
+
+
+
+
 .section-projects{
   display: flex;
   flex-direction: column;
@@ -344,11 +362,12 @@ filter: brightness(0) saturate(100%) invert(0%) sepia(7%) saturate(98%) hue-rota
   background-color: #cddade;
   padding: 5%;
   position: relative;
-  background: url(./images/bg-project2.jpg);
+  background: url(./images/18391.jpg);
   background-position: center center;
   background-size:cover;
   background-repeat: no-repeat;
-  height: 700px;
+  height: 100%;
+  width: 100%;
 }
 .section-projects h1 {
 display: inline-block;
@@ -359,22 +378,22 @@ color: #ffffff ;
 
 }
 .skill{
-  width: 80%;
+  width: 100%;
   color : #02303f;
   padding: 2%;
 }
 .skill-bx {
-background: linear-gradient(90.21deg, rgb(241, 244, 241,0.8) -5.91%, rgba(147, 188, 199, 0.2) 111.58%);
+background: linear-gradient(90.21deg, rgb(241, 244, 241,0.9) -5.91%, rgba(241, 244, 241) 111.58%);
 border-radius: 64px;
 text-align: center;
-padding: 5% 0;
+padding: 2% 0;
 }
 .skill h2 {
 font-size: 30px;
 font-weight: 700;
 }
 .item p {
-  font-size: 14px;
+  font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
   padding: 0 8%;
@@ -386,10 +405,10 @@ font-weight: 700;
 
 .item strong {
   color: #0463ab;
-  
+  font-size: 18px;
 }
 .skill-slider {
-width: 80%;
+width: 90%;
 margin: 0 auto;
 position: relative;
 }
@@ -407,112 +426,13 @@ position: relative;
 }
 
 
-/* .section-education {
-  position: relative;
-} */
-
-.section-education{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-  height: 500px;
-}
 
 
-.background-images {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  z-index: -1;
-
-}
-
-.image1, .image2 {
-  flex: 1;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-}
-
-.edu-title{
-  background: linear-gradient(90.21deg, rgba(65, 172, 35, 0.5) -5.91%, rgba(198, 22, 119, 0.5) 111.58%);
-  margin-bottom: 20px;
-  margin-top: 30px;
-  border-radius: 20px;
-  color: #ffffff ;
-  padding: 0 5%}
 
 
-.Container {
-  position: relative;
-  z-index: 1;
-}
 
-.education-block {
-  padding: 30px 60px 60px 60px;
-  margin-bottom: 20px;
-  border-radius: 10px;
-  text-align: center; /* Center text within the education block */
-  position: relative;
-}
 
-.msc-block{
-  margin-right: 15px;
-  background: linear-gradient(90.21deg, rgba(218, 231, 215, 0.8) , rgba(171, 233, 170, 0.9));
-  color : #02303f;
-}
 
-.btech-block{
-  margin-left: 15px;
-  background: linear-gradient(90.21deg,  rgba(218, 231, 215, 0.8) -5.91%,rgba(230, 107, 174, 0.9) 111.58%);
-  color : #02303f;
-}
-
-.education-block h2 {
-  font-size: 24px;
-}
-.education-block h4 {
-  font-size: 18px;
-  font-style: italic;
-}
-
-.courses {
-  margin-top: 10px;
-  display: flex;
-}
-
-.courses p {
-  margin-bottom: 5px;
-  padding-right: 20px;
-}
-
-.courses ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-.courses li {
-  display: flex;
-  text-align: left;
-}
-
-.courses li span {
-  flex: 1;
-}
-.course-duration {
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-}
-
-.course-duration p {
-  margin: 0;
-  font-size: 14px;
-}
 
 
 .contact {
@@ -586,6 +506,10 @@ position: relative;
   width: 100%;
 }
 
+
+
+
+
 .section-footer {
   padding:20px 0;
   display: flex;
@@ -602,6 +526,129 @@ position: relative;
   margin-left: 20%;
 }
 
+
+
+
+
+
+
+
+.sec-education{
+  background-image: url(./images/edu-bg.jpg);
+  background-size: cover;
+  padding: 0;
+}
+
+.col-edu{
+  display: flex;
+  flex-direction: column;
+}
+
+
+.block-edu{
+background: linear-gradient(90.21deg, rgb(241, 244, 241) -5.91%, rgba(147, 188, 199, 0.2) 111.58%);
+border-radius: 24px;
+padding: 5%;
+color: #000;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+.block-edu p{
+  color: #000;
+}
+
+.block-edu h2{
+  font-size: calc(1.3rem + .6vw);
+}
+
+.title-edu{
+  padding: 20px 0 10px ;
+  display: inline-flex;
+  transform: rotate(-80deg); /* Rotate around the X axis */
+  margin-top: 25%;
+}
+
+.title-edu h1{
+  background: linear-gradient(90.21deg, rgba(13, 14, 13, 0.1) -5.91%, rgba(12, 4, 165, 0.1) 111.58%);
+  padding: 10px;
+  border-radius: 10px;;
+  margin-top:80%;
+  color: #000;
+  font-size: 2.5rem;
+}
+
+.courses {
+  margin-top: 10px;
+}
+
+.courses ul {
+  list-style-type: none;
+}
+.courses p{
+  margin-bottom: 0;
+  font-size: 1rem;
+}
+.courses li{
+  font-size: 0.85rem !important;
+}
+.edu-tag{
+  background: linear-gradient(90.21deg, rgba(243, 149, 204, 0.5) -5.91%, rgba(223, 221, 231, 0.5) 111.58%) !important;
+  border-radius: 5px;
+  font-size: 1rem !important;
+}
+
+
+
+
+
+
+
+
+
+
+.sec-exp{
+  background: linear-gradient(90.21deg, rgb(132, 226, 132) -5.91%, rgba(145, 141, 97, 0.9) 111.58%);
+
+    font-family: "Montserrat", sans-serif;
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+
+}
+
+.title { 
+  text-align: center;
+}
+.tech-exp{
+  font-size: 1rem;
+}
+.title{
+padding: 15px;
+border-radius: 20px;
+color: #ffffff ;
+
+}
+.description{
+  font-size: 0.8rem !important;
+}
+.vertical-timeline-element-content {
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+  padding: 2em 3em !important;
+}
+
+.date {
+  color: rgb(201, 251, 255);
+}
+
+@media only screen and (max-width: 1700px) {
+  .vertical-timeline-element-date {
+    display: block !important;
+    float: none !important;
+    color: rgb(44, 44, 44);
+    margin-top: 1.5em;
+  }
+}
 @media only screen and (max-width: 600px) {
   
   nav.navbar .navbar-nav .nav-link.navbar-link {
@@ -620,8 +667,46 @@ position: relative;
   .social-icon{
     margin-right: 0;
   }
-  .item p {
-    font-size: 10px;
+  .skill h2 {
+    font-size: 20px;
+    padding: 10px 0;;
   }
+  .item p, .item strong {
+    font-size: 12px;
+  }
+
+  .skill-bx {
+    padding: 4% 0;
+    border-radius: 25px;
+  }
+
+  .section-education{
+
+    height: 100%;
+  }
+  .section-projects{
+    height: 600px;
+  }
+  .hidden{
+    display:contents;
+  }
+  .title-edu h1{
+    margin-top: 0;
+  }
+.title-edu{
+  transform: rotate(0); /* Rotate around the X axis */
+  margin-top: 0%;
+}
+
+
+nav.navbar a.navbar-brand {
+  width: 40%;
+}
+.social-icon {
+  margin-left: 0;
+}
+.msc-tag{
+  display: none;
+}
 
 }

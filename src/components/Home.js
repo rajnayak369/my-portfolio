@@ -12,7 +12,7 @@ const Home = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const [text, setText] = useState('');
     const [delta, setDelta] = useState(300 - Math.random() * 100);
-    const toRotate = [ "Software Developer", "Backend Engineer", "UI/UX Designer" ];
+    const toRotate = [ "Software Developer", "Backend Engineer", "Full-Stack Developer" ];
     const period = 2000;
 
     useEffect(() => {
@@ -50,10 +50,12 @@ const Home = () => {
                 <Row className="aligh-items-center">
                     <Col xs={12} md={6} xl={7} className="col-intro">
                         <h1>Hi!  I'm Sairaj Naik</h1>
-                        <span className="tagline"> MSc Information Technology | {text}</span>
-                        <p>Experienced software engineer with a Master’s degree in Information Technology and over 3.5 years of hands-on experience at working in Agile and Scrum environments to develop high-performance, reliable, and scalable systems. Proficient in Java, Python and JavaScript, with a strong foundation in building scalable backend systems using microservices architecture. Skilled in both SQL (MySQL) and NoSQL databases, including Redis and DynamoDB.</p>
+                        <span className="tagline"> <span className="msc-tag">MSc Information Technology</span>  | {text}</span>
+                        <p>Experienced software engineer with a Master’s degree in Information Technology and over 3.5 years of hands-on experience at working in Agile and Scrum environments to develop high-performance, reliable, and scalable systems. Proficient in Java, Python and JavaScript, with a strong foundation in building scalable backend systems using microservices architecture. Skilled in both SQL and NoSQL databases.</p>
+                        <p><strong className="tagline tagline-skills">Skills:</strong> Java, Python, Django, React, JavaScript, DSA, AWS, Problem solving, System design, Design patterns, SQL, DBMS, Redis, Git.</p>
+                        <p><strong className="tagline tagline-skills">Certifications:</strong> <a href="https://www.credly.com/badges/a432cccd-62fe-4af7-a3e7-a53e41a70cb8/public_url">AWS Certified Cloud Practitioner</a></p>
                         <div className="div-btns">
-                            <button onClick={() => console.log('connect')} className="btn-resume">SEE MY RESUME </button>
+                            <button onClick={() =>  window.location.href = 'https://peach-rosetta-77.tiiny.site/' } className="btn-resume">SEE MY RESUME </button>
                             <div className="social-icon">
                                 <a href="https://www.linkedin.com/in/sairaj-naik-08713723b/"><img src={navIcon1} alt="" /></a>
                                 <a href="https://github.com/rajnayak369"><img src={navIcon2} alt="" /></a>

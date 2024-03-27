@@ -9,7 +9,7 @@ const Footer = () => {
                 <img src={logo} alt="Logo" />
             </div>
             <div>
-                <span>© Sairaj_naik development 2024. All rights reserved.</span>
+            <button onClick={() =>  window.location.href = 'https://peach-rosetta-77.tiiny.site/' } className="btn-resume">SEE MY RESUME </button>
             </div>
             <div className="social-icon">
                 <a href="https://www.linkedin.com/in/sairaj-naik-08713723b/"><img src={navIcon1} alt="" /></a>

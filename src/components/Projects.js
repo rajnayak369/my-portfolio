@@ -52,11 +52,13 @@ const Projects = () => {
       
 
     return (
-        <TrackVisibility>
-        {({ isVisible }) => 
+       
         <section className="section-projects" id='projects'>
-          
-             <h1 className={isVisible? "animate__animated animate__shakeY":""}>Projects</h1>
+           <TrackVisibility>
+                {({ isVisible }) => 
+             <h1 className={isVisible? "animate__animated animate__shakeY animate__slow":""}>Projects</h1>
+                } 
+            </TrackVisibility>
             <div className="skill">
                 <div className="container ">
                
@@ -69,7 +71,7 @@ const Projects = () => {
                                         <p>• Implemented an automated process to extract information from PDF documents, using both text and OCR techniques.</p>
                                         <p>• Standardised descriptions across all customers and extracted dimensions from the descriptions. Processed equipment
                                             numbers and generated multiple entries based on whether items were single or multiple.</p>
-                                        <p>• Utilised AWS Lambda for executing the application, with Amazon S3 buckets utilised for file uploads triggering respec- tive Lambda functions upon file upload events. Following file processing, an Excel formatted table was generated, and
+                                        <p>• Utilised AWS Lambda for executing the application, with Amazon S3 buckets utilised for file uploads triggering respective Lambda functions upon file upload events. Following file processing, an Excel formatted table was generated, and
                                             users were notified upon completion of the process.</p>
                                         <strong>Skills: Python, AWS Lambda, Amazon S3, AWS SNS, Git</strong>
                                     </div> 
@@ -94,8 +96,7 @@ const Projects = () => {
                 </div>
             </div>
         </section>
-        } 
-        </TrackVisibility>
+      
     )
 
 }

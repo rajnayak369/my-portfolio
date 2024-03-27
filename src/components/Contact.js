@@ -34,18 +34,22 @@ const Contact = () => {
     return (
       
         <section className="contact" id="contact-us">
-          <TrackVisibility>
-      {({ isVisible }) => 
+          
           <Container>
             <Row className="align-items-center">
               <Col size={12} md={6}>
-               
-                    <img className={isVisible?"animate__animated animate__zoomIn":""}   src={contact} alt="Contact Us"/>
-                
+              <TrackVisibility>
+               {({ isVisible }) => 
+                    <img className={isVisible?"animate__animated animate__rubberBand":""}   src={contact} alt="Contact Us"/>
+                  }
+                  </TrackVisibility>
               </Col>
               <Col size={12} md={6}>
-                
-                    <h2 className={isVisible?"animate__animated animate__zoomIn":""}>Get In Touch</h2>
+              <TrackVisibility>
+               {({ isVisible }) => 
+                    <h2 className={isVisible?"animate__animated animate__zoomIn animate__slow":""}>Get In Touch</h2>
+                  }
+                  </TrackVisibility>
                     <form onSubmit={handleSubmit}>
                       <Row>
                         <Col size={12} sm={6} className="px-1">
@@ -71,8 +75,7 @@ const Contact = () => {
               </Col>
             </Row>
           </Container>
-}
-        </TrackVisibility>
+
         </section>
       );
 }
