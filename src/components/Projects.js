@@ -68,25 +68,23 @@ const Projects = () => {
                                 <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                                     <div className="item">
                                     <h2>Data Extraction for Intebloc Ltd</h2>
-                                        <p>• Implemented an automated process to extract information from PDF documents, using both text and OCR techniques.</p>
-                                        <p>• Standardised descriptions across all customers and extracted dimensions from the descriptions. Processed equipment
-                                            numbers and generated multiple entries based on whether items were single or multiple.</p>
-                                        <p>• Utilised AWS Lambda for executing the application, with Amazon S3 buckets utilised for file uploads triggering respective Lambda functions upon file upload events. Following file processing, an Excel formatted table was generated, and
-                                            users were notified upon completion of the process.</p>
+                                        <p>• Implemented an automated process to extract information from PDF documents, leveraging both text extraction and OCR techniques, resulting in a 90% reduction in manual data entry time.</p>
+                                        <p>• Used AWS Lambda for application execution and Amazon S3 buckets for file uploads, triggering respective Lambda functions upon file upload events. Employed AWS SNS to notify user along with the path for the generated Excel file.</p>
+                                        <p>• Achieved a 80% reduction in client on boarding time by optimizing data extraction and workflows, facilitating quicker access to information for new client.</p>
                                         <strong>Skills: Python, AWS Lambda, Amazon S3, AWS SNS, Git</strong>
                                     </div> 
                                     <div className="item">
                                     <h2>Taste of India Web Application</h2>
-                                        <p>• Developed and hosted the Taste of India food ordering web application using the Django web framework, ensuring robust functionality and security on Heroku <a href="https://taste-of-india-uk.herokuapp.com" >Taste of India</a>.</p>
-                                        <p>• Designed a responsive and user-friendly interface, where food ordering experience made fun and easy.</p>
-                                        <p>• Implemented a SQL database for seamless data storage and retrieval, enhancing the performance of the platform.</p>
+                                        <p>• Developed and hosted the <a href="https://taste-of-india-uk.herokuapp.com" >Taste of India</a>food ordering web application using the Django web framework. Deployed on Heroku, achieving 99.9% up-time, ensuring robust functionality and security.</p>
+                                        <p>• Implemented a user-friendly responsive interface, intuitive navigation and visual elements to enhance the food ordering experience.</p>
+                                        <p>• Designed a Schema and SQL database, optimizing database queries to ensure efficient data retrieval and enhancing overall user experience.</p>
                                         <strong>Skills: Django, Python, JavaScript, Bootstrap, Git, Heroku, MySQL</strong>
                                     </div> 
                                     <div className="item">
                                     <h2>Tech Curious Minds Blog and Chat Room</h2>
-                                        <p>• Developed a personal blog website which features regular blogs related to tech using Node.js, Express, and Sockets.</p>
-                                        <p>• Implemented a real-time chat room feature allowing multiple users to engage in tech discussions.</p>    
-                                        <p>• Features include user authentication, userlist viewing, real-time user entry and exit notifications and an interactive user interface.</p>
+                                        <p>• Developed a web application featuring tech blogs, using Node.js and Express.js as the back-end framework for routing and middleware management.</p>
+                                        <p>• Designed inter active user interface with React and Incorporated user authentication, listviewing, real-time notifications.</p>    
+                                        <p>• Implemented a real-time chat room using Socket.IO, enabling simultaneous participation of users in tech discussions.</p>
                                         <strong>Skills: Node.js, Express, JavaScript, Bootstrap, Git, MongoDB</strong>
                                     </div>  
                                 </Carousel>

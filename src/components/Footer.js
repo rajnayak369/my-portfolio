@@ -9,7 +9,7 @@ const Footer = () => {
                 <img src={logo} alt="Logo" />
             </div>
             <div>
-            <button onClick={() =>  window.location.href = 'https://peach-rosetta-77.tiiny.site/' } className="btn-resume">SEE MY RESUME </button>
+            <button onClick={() =>  window.location.href = 'https://publuu.com/flip-book/462141/1039952' } className="btn-resume">SEE MY RESUME </button>
             </div>
             <div className="social-icon">
                 <a href="https://www.linkedin.com/in/sairaj-naik-08713723b/"><img src={navIcon1} alt="" /></a>

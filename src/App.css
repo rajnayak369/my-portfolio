@@ -27,7 +27,7 @@ body {
   overflow-x: hidden;
   position: relative;
   background-color: #121212 !important;
-  color: #fff !important;
+color: #fff !important;
   background-size: cover;
   
 }
@@ -94,7 +94,7 @@ nav.navbar {
   top: 0;
   z-index: 9999;
   transition:  0.32s ease-in-out;
-}
+  }
 nav.navbar.scrolled {
   padding: 0px 0;
   background-color: #121212;
@@ -103,10 +103,10 @@ nav.navbar.scrolled {
 
 nav.navbar a.navbar-brand {
     width: 20%;
-}
+    }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #fff  !important;
+color: #fff  !important;
   letter-spacing: 0.8px;
   padding: 10px 5px;
   margin: 15px;
@@ -218,12 +218,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 .banner {
   margin-top: 0;
-  padding: 200px 0 100px 0;
+  padding: 200px 0 85px 0;
   background-image: url(./images/bg-night.jpg);
+  background: linear-gradient(90.21deg, rgba(67, 56, 63, 0.2) -5.91%, rgba(60, 101, 93, 0.3) 111.58%), url(./images/bg-night.jpg);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-}
+  }
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -251,6 +252,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   line-height: 1.5em;
   width: 96%;
+}
+.col-intro{
+  padding-top: 5%;
 }
 .col-intro a{
   text-decoration:underline;
@@ -310,7 +314,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   justify-content: center;
   line-height: 1;
   border: 1px solid rgba(255, 255, 255, 0.5);
-}
+  }
 .social-icon a::before {
   content: "";
   width: 42px;
@@ -693,5 +697,12 @@ nav.navbar a.navbar-brand {
 .msc-tag{
   display: none;
 }
+.item p {
+  letter-spacing: 0.2px;
+ 
+}
+.banner { 
+  padding: 100px 0 50px 0;
+  }
 
 }
