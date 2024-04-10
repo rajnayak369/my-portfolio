@@ -535,7 +535,7 @@ position: relative;
 .sec-education{
   background-image: url(./images/edu-bg.jpg);
   background-size: cover;
-  padding: 0;
+  padding: 0 !important;
 }
 
 .col-edu{
