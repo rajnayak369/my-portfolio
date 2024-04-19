@@ -51,8 +51,8 @@ const Home = () => {
                     <Col xs={12} md={6} xl={7} className="col-intro">
                         <h1>Hi!  I'm Sairaj Naik</h1>
                         <span className="tagline"> <span className="msc-tag">MSc Information Technology</span>  | {text}</span>
-                        <p>A highly motivated software engineer with a Master’s degree in Information Technology and 3.5 years of experience at working in Agile environments to develop high-performance and reliable systems. Proficient in Java, Python and React with a strong foundation in building scalable backend systems using microservices architecture. Skilled in both SQL and NoSQL databases.</p>
-                        <p><strong className="tagline tagline-skills">Skills:</strong> Java, Python, Django, React, JavaScript, DSA, AWS, Problem solving, System design, Design patterns, SQL, DBMS, Redis, Git.</p>
+                        <p>A highly motivated software engineer with a Master’s degree in Information Technology and 3.5 years of experience at working in Agile environments to develop high-performance and reliable systems. Proficient in Python, Django, Java and React, with expertise in building scalable Backend and Fullstack applications using microservices architecture. Skilled in both SQL and NoSQL databases.</p>
+                        <p><strong className="tagline tagline-skills">Skills:</strong> Python, Django, Flask, Java, React, JavaScript, DSA, AWS, Problem solving, System design, Design patterns, SQL, DBMS, mongoDB, Redis, Git.</p>
                         <p><strong className="tagline tagline-skills">Certifications:</strong> <a href="https://www.credly.com/badges/a432cccd-62fe-4af7-a3e7-a53e41a70cb8/public_url">AWS CCP</a>, <a href="https://coursera.org/share/1df0c9d2c4ba9d93ce5abed9e4e579b4">React Coursera</a></p>
                         <div className="div-btns">
                             <button onClick={() =>  window.location.href = 'https://publuu.com/flip-book/462141/1039952' } className="btn-resume">SEE MY RESUME </button>
